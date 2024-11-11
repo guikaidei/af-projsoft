@@ -46,7 +46,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
-        file: ./Dockerfile
+        file: ./af/Dockerfile
         push: true
         tags: guikaidei/prova-ci:${{ github.sha }}
 
